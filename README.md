@@ -7,6 +7,37 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Sobre a aplicação
+
+O projeto consiste em um sistema de controle de viagens. O sistema foi desenvolvido com o objetivo de automatizar o processo de saída e chegada de veículos para instituições que oferecem serviços de entrega. Para isso um registro deve ser efetuado pelo usuário, ao acessar a dashboard através do login, será possível efetuar cadastro de motoristas e veículos; o cadastro de viagens necessita de ao menos um veículo e motorista e é efetuado em duas etapas: Inicia o cadastro na saída para a entrega e finaliza ao chegar.
+
+## Tecnologias utilizadas
+    Laravel
+    Bootstrap
+    Jquery
+    Bibliotecas Jquery:
+        - Jquery-Confirm: https://craftpip.github.io/jquery-confirm/  //Biblioteca de alertas
+        - Jquery-Mask: https://igorescobar.github.io/jQuery-Mask-Plugin/  //biblioteca de máscaras para inputs
+        - Bootstrap-datepicker: https://bootstrap-datepicker.readthedocs.io/en/latest/ //Máscara de data para inputs
+        - WickedPicker: https://ericjgagnon.github.io/wickedpicker/ //Máscara de horário para inputs
+    Banco MySql
+
+## Banco de dados
+O modelo entidade relacionamento encontra-se no diretório /database do projeto, nos formatos .pdf e workbench.
+
+As migrations estão configuradas para gerar o banco automaticamente, para isso: 
+    Crie uma base mysql e configure a conexão no arquivo .env
+    ex: DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=web1laravel
+        DB_USERNAME=root
+        DB_PASSWORD=
+    Após esta etapa excute o comando: <code>php artisan migrate:fresh</code>
+
+Caso eventualmente não utilize as migrations, importe a base de dados web1laravel.sql disponível no diretório /database.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
