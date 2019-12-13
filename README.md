@@ -11,6 +11,13 @@
 
 O projeto consiste em um sistema de controle de viagens. O sistema foi desenvolvido com o objetivo de automatizar o processo de saída e chegada de veículos para instituições que oferecem serviços de entrega. Para isso um registro deve ser efetuado pelo usuário, ao acessar a dashboard através do login, será possível efetuar cadastro de motoristas e veículos; o cadastro de viagens necessita de ao menos um veículo e motorista e é efetuado em duas etapas: Inicia o cadastro na saída para a entrega e finaliza ao chegar.
 
+## Projeto
+
+Equipe: Brenddon e Luiz.<br/>
+
+Projeto de PHP (Projeto Alternativo). Valor 3,5 Pontos.
+ 
+
 ## Tecnologias utilizadas
 <ul>
 <li>Laravel</li>
