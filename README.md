@@ -15,7 +15,9 @@ O projeto consiste em um sistema de controle de viagens. O sistema foi desenvolv
 
 Equipe: Brenddon e Luiz.<br/>
 
-Projeto de PHP (Projeto Alternativo). Valor 3,5 Pontos.
+Projeto de PHP (Projeto Alternativo). Valor 3,5 Pontos. <br/>
+
+Sistema de controle de viagens
  
 
 ## Tecnologias utilizadas
@@ -27,9 +29,9 @@ Projeto de PHP (Projeto Alternativo). Valor 3,5 Pontos.
     Bibliotecas Jquery:
     <ul>
         <li>Jquery-Confirm: <a href="https://craftpip.github.io/jquery-confirm/" target="_blank">https://craftpip.github.io/jquery-confirm/</a>  //Biblioteca de alertas</li>
-        <li>Jquery-Mask:<a href="https://igorescobar.github.io/jQuery-Mask-Plugin/" target="_blank">https://igorescobar.github.io/jQuery-Mask-Plugin/</a>   //biblioteca de máscaras para inputs</li>
+        <li>Jquery-Mask :<a href="https://igorescobar.github.io/jQuery-Mask-Plugin/" target="_blank">https://igorescobar.github.io/jQuery-Mask-Plugin/</a>   //biblioteca de máscaras para inputs</li>
         <li>Bootstrap-datepicker: <a href="https://bootstrap-datepicker.readthedocs.io/en/latest/" target="_blank">https://bootstrap-datepicker.readthedocs.io/en/latest/</a>  //Máscara de data para inputs</li>
-        <li>WickedPicker: <a href=" https://ericjgagnon.github.io/wickedpicker/" target="_blank"> https://ericjgagnon.github.io/wickedpicker/</a> //Máscara de horário para inputs</li>
+        <li>WickedPicker: <a href=" https://ericjgagnon.github.io/wickedpicker/" target="_blank">https://ericjgagnon.github.io/wickedpicker/</a> //Máscara de horário para inputs</li>
     </ul>
 </li>
 <li>Banco MySql</li>
