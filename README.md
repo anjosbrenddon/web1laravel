@@ -16,26 +16,28 @@ O projeto consiste em um sistema de controle de viagens. O sistema foi desenvolv
     Bootstrap
     Jquery
     Bibliotecas Jquery:
-        - Jquery-Confirm: https://craftpip.github.io/jquery-confirm/  //Biblioteca de alertas
-        - Jquery-Mask: https://igorescobar.github.io/jQuery-Mask-Plugin/  //biblioteca de máscaras para inputs
-        - Bootstrap-datepicker: https://bootstrap-datepicker.readthedocs.io/en/latest/ //Máscara de data para inputs
-        - WickedPicker: https://ericjgagnon.github.io/wickedpicker/ //Máscara de horário para inputs
+    <ul>
+    <li>Jquery-Confirm: <a href="https://craftpip.github.io/jquery-confirm/" target="_blank">https://craftpip.github.io/jquery-confirm/</a>  //Biblioteca de alertas</li>
+    <li>Jquery-Mask:<a href="https://igorescobar.github.io/jQuery-Mask-Plugin/" target="_blank">https://igorescobar.github.io/jQuery-Mask-Plugin/</a>   //biblioteca de máscaras para inputs</li>
+    <li>Bootstrap-datepicker: <a href="https://bootstrap-datepicker.readthedocs.io/en/latest/" target="_blank">https://bootstrap-datepicker.readthedocs.io/en/latest/</a>  //Máscara de data para inputs</li>
+    <li>WickedPicker: <a href=" https://ericjgagnon.github.io/wickedpicker/" target="_blank"> https://ericjgagnon.github.io/wickedpicker/</a> //Máscara de horário para inputs</li>
+    </ul>
     Banco MySql
 
 ## Banco de dados
 O modelo entidade relacionamento encontra-se no diretório /database do projeto, nos formatos .pdf e workbench.
+<p>As migrations estão configuradas para gerar o banco automaticamente, para isso: </p>
+    Crie uma base mysql e configure a conexão no arquivo .env <br/>
+    ex: <br>
+    DB_CONNECTION=mysql <br>
+    DB_HOST=127.0.0.1 <br>
+    DB_PORT=3306 <br>
+    DB_DATABASE=web1laravel <br>
+    DB_USERNAME=root <br>
+    DB_PASSWORD=
+    <p>Após esta etapa excute o comando: <code>php artisan migrate:fresh</code> </p>
 
-As migrations estão configuradas para gerar o banco automaticamente, para isso: 
-    Crie uma base mysql e configure a conexão no arquivo .env
-    ex: DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=web1laravel
-        DB_USERNAME=root
-        DB_PASSWORD=
-    Após esta etapa excute o comando: <code>php artisan migrate:fresh</code>
-
-Caso eventualmente não utilize as migrations, importe a base de dados web1laravel.sql disponível no diretório /database.
+Caso eventualmente não utilize as migrations, importe a base de dados <code>web1laravel.sql</code> disponível no diretório /database.
 
 
 ## About Laravel
