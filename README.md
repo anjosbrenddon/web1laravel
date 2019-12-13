@@ -27,17 +27,11 @@ O projeto consiste em um sistema de controle de viagens. O sistema foi desenvolv
 </li>
 <li>Banco MySql</li>
 </ul>
-    
-    
-    
-    
-    
-    
 
 ## Banco de dados
 O modelo entidade relacionamento encontra-se no diretório /database do projeto, nos formatos .pdf e workbench.
 <p>As migrations estão configuradas para gerar o banco automaticamente, para isso: </p>
-    Crie uma base mysql e configure a conexão no arquivo .env <br/>
+    Crie uma base mysql e configure a conexão no arquivo <code>.env</code><br/>
     ex: <br>
     DB_CONNECTION=mysql <br>
     DB_HOST=127.0.0.1 <br>
@@ -49,6 +43,14 @@ O modelo entidade relacionamento encontra-se no diretório /database do projeto,
 
 Caso eventualmente não utilize as migrations, importe a base de dados <code>web1laravel.sql</code> disponível no diretório /database.
 
+## Inicialização do projeto
+<p>Os comandos seguintes devem ser executados no diretório do projeto clonado ou devidamente baixado e extraído:</p>
+
+<code>composer install</code><br>
+<code>cp .env.example .env</code><br>
+<code>php artisan key:generate</code><br>
+
+Requer PHP v. 7.2 +
 
 ## About Laravel
 
