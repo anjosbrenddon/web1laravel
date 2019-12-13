@@ -12,17 +12,27 @@
 O projeto consiste em um sistema de controle de viagens. O sistema foi desenvolvido com o objetivo de automatizar o processo de saída e chegada de veículos para instituições que oferecem serviços de entrega. Para isso um registro deve ser efetuado pelo usuário, ao acessar a dashboard através do login, será possível efetuar cadastro de motoristas e veículos; o cadastro de viagens necessita de ao menos um veículo e motorista e é efetuado em duas etapas: Inicia o cadastro na saída para a entrega e finaliza ao chegar.
 
 ## Tecnologias utilizadas
-    Laravel
-    Bootstrap
-    Jquery
+<ul>
+<li>Laravel</li>
+<li>Bootstrap</li>
+<li>Jquery</li>
+<li>
     Bibliotecas Jquery:
     <ul>
-    <li>Jquery-Confirm: <a href="https://craftpip.github.io/jquery-confirm/" target="_blank">https://craftpip.github.io/jquery-confirm/</a>  //Biblioteca de alertas</li>
-    <li>Jquery-Mask:<a href="https://igorescobar.github.io/jQuery-Mask-Plugin/" target="_blank">https://igorescobar.github.io/jQuery-Mask-Plugin/</a>   //biblioteca de máscaras para inputs</li>
-    <li>Bootstrap-datepicker: <a href="https://bootstrap-datepicker.readthedocs.io/en/latest/" target="_blank">https://bootstrap-datepicker.readthedocs.io/en/latest/</a>  //Máscara de data para inputs</li>
-    <li>WickedPicker: <a href=" https://ericjgagnon.github.io/wickedpicker/" target="_blank"> https://ericjgagnon.github.io/wickedpicker/</a> //Máscara de horário para inputs</li>
+        <li>Jquery-Confirm: <a href="https://craftpip.github.io/jquery-confirm/" target="_blank">https://craftpip.github.io/jquery-confirm/</a>  //Biblioteca de alertas</li>
+        <li>Jquery-Mask:<a href="https://igorescobar.github.io/jQuery-Mask-Plugin/" target="_blank">https://igorescobar.github.io/jQuery-Mask-Plugin/</a>   //biblioteca de máscaras para inputs</li>
+        <li>Bootstrap-datepicker: <a href="https://bootstrap-datepicker.readthedocs.io/en/latest/" target="_blank">https://bootstrap-datepicker.readthedocs.io/en/latest/</a>  //Máscara de data para inputs</li>
+        <li>WickedPicker: <a href=" https://ericjgagnon.github.io/wickedpicker/" target="_blank"> https://ericjgagnon.github.io/wickedpicker/</a> //Máscara de horário para inputs</li>
     </ul>
-    Banco MySql
+</li>
+<li>Banco MySql</li>
+</ul>
+    
+    
+    
+    
+    
+    
 
 ## Banco de dados
 O modelo entidade relacionamento encontra-se no diretório /database do projeto, nos formatos .pdf e workbench.
