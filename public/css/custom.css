@@ -1,0 +1,15 @@
+select.readonly {
+    background: #eaecf4;
+    pointer-events: none;
+    touch-action: none;
+}
+
+.font-status {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.error {
+    color: #ca4035 !important;
+    border-color: #d69893 !important;
+}

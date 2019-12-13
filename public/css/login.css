@@ -1,0 +1,12 @@
+body {
+    background-color: #3490dc;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.card-login .card-header {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
